@@ -10,7 +10,7 @@ services:
     environment:
       - DEFAULT_HOST=porxy.example
   webserver:
-    build: andrisuri/nginxwebserver:v1
+    image: andrisuri/nginxwebserver:v1
     ports:
      - "1441:3000"
     environment:
